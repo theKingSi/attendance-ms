@@ -301,6 +301,20 @@ export const mockLecturers: Lecturer[] = [
     department: "Mechanical Engineering",
     classes: ["3"],
   },
+  {
+  id: "11",
+  name: "Dr. Karen Blake",
+  email: "karen.blake@university.edu",
+  department: "Computer Science",
+  classes: ["1", "4"],
+},
+{
+  id: "12",
+  name: "Prof. Liam Turner",
+  email: "liam.turner@university.edu",
+  department: "Electrical Engineering",
+  classes: ["2", "5"],
+}
 ]
 
 export const mockClasses: Class[] = [
