@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 import { useParams } from "next/navigation"
 import Layout from "../../../../components/Layout"
-import { useStore } from "../../../../lib/store"
 import { Users, BookOpen, Mail, Calendar, ArrowRight } from "lucide-react"
+import { useStore } from "../../../../../lib/store"
 
 export default function LecturerDetails() {
   const params = useParams()

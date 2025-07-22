@@ -3,8 +3,8 @@
 import { motion } from "framer-motion"
 import { useParams } from "next/navigation"
 import Layout from "../../../../../components/Layout"
-import { useStore } from "../../../../../lib/store"
 import { Users, BookOpen, Calendar } from "lucide-react"
+import { useStore } from "../../../../../../lib/store"
 
 export default function ClassStudents() {
   const params = useParams()

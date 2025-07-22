@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion"
 import { Calendar, CheckCircle, XCircle, Filter } from "lucide-react"
-import type { AttendanceSession } from "../lib/types"
-import { useStore } from "../lib/store"
+import { AttendanceSession } from "../../lib/types"
+import { useStore } from "../../lib/store"
+
+
 
 interface AttendanceTableProps {
   sessions: AttendanceSession[]
